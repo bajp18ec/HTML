@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> simple form</title>
+    </head>
+
+    <style>
+        #form
+        {
+            height: 300px;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            background-color: aqua;
+
+        }
+        div#\'D1 {
+            margin: 20px;
+        }
+        input.name
+        {
+            width: 150px;
+            border-radius: 20px;
+            height: 35px;
+        }
+        input.college
+        {
+            width: 150px;
+            border-radius: 20px;
+            height: 35px;
+        }
+        input.place
+        {
+            width: 150px;
+            border-radius: 20px;
+            height: 35px;
+        }
+        table,th,td
+        {
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        <div id = "form">
+            <div id="'D1">
+                <label for="">Name</label>
+                <input type="text"class="name" id="name">
+            </div>
+
+            <div id="'D1">
+                <label for="">College</label>
+                <input type="text"class="college" id="college">
+            </div>
+
+            <div id="'D1">
+                <label for="">Place</label>
+                <input type="text" class="place" id="place">
+            </div>
+
+            <button id="btn" style="width: 60px; height:25px;" onclick="myfunc()">Submit</button>
+
+        </div>
+
+        <table id = "list">
+            <thead>
+                <tr>
+                    <th>Nmae</th>
+                    <th>College</th>
+                    <th>Place</th>
+                </tr>
+            </thead>
+            <tbody id="bodydata">
+
+            </tbody>
+            
+        </table>
+
+        <script src="j4.js"></script>
+    </body>
+</html>
